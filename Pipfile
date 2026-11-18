@@ -27,6 +27,10 @@ httpx2 = "*"
 asyncio = "*"
 websocket-client = "*"
 requests_sse = "*"
+orjson = "*"
+fastapi = {extras = ["standard"], version = "*"}
+pymongo = "*"
+pytest = "*"
 
 [dev-packages]
 
